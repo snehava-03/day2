@@ -14,6 +14,9 @@ export const Navbar = () => {
           </Typography>
           <Link to={'/'}><Button style={{color: 'white'}}>View</Button></Link>
           <Link to={'/add'}><Button style={{color: 'white'}} >Add</Button></Link>
+          <Link to={'/word'}><Button style={{color: 'white'}} >Word</Button></Link>
+          
+
         </Toolbar>
       </AppBar>
     </Box>
